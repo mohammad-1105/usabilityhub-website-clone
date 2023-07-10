@@ -1,0 +1,271 @@
+@media screen and (max-width:765px) {
+
+
+
+.top{
+    
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
+
+.togglenav span{
+    margin-top: 10px;
+}
+
+.nav_links ul li{
+    display: none;
+}
+
+
+.phoneNavbar {
+    display: block;
+    padding: 30px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    top: -100%;
+    transition: .5s ease-in-out;
+
+}
+
+.phoneNavbar.show {
+    top: 100px;
+    transition: .5s ease-in-out;
+}
+.phoneNavbarLinks {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.phoneNavbarSignIn{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-block: 10px;
+    gap: 12px;
+    margin-bottom: -20px;
+}
+
+.navbar img{
+    margin-left: 35px;
+}
+.togglenav{
+    display: initial;
+    position: relative;
+    right:20px;
+}
+
+.home{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home img{
+    width:300px;
+}
+
+.after-home{
+    align-items: center;
+    margin-block:80px;
+    justify-content: space-evenly;
+    height: 196px;
+    padding-inline:20px;
+}
+.after-home .para{
+    text-align: center;
+}
+    
+
+.after-home .btn2{
+    align-self: center;
+}
+
+.company .para{
+    font-size: 1rem;
+    margin-inline: 15px;
+}
+
+.feature_section .h-primary{
+    font-size: 2rem;
+}
+.feature_section .btn1{
+    padding: 3px 10px;
+}
+.feature_cards{
+    width:50%;
+}
+
+.designProfessional .designflex1 >img{
+    width:300px;
+}
+
+.designflex1{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.designflex2 .image>img{
+    height: 46px;
+    width: 31px;
+}
+.designflex2 .image .h2-secondary{
+    font-size: 0.9rem;
+}
+.designflex2 .image .para{
+    font-size: 0.9rem;
+}
+.designflex2 .image{
+   width:190px;
+}
+
+
+.marketersflex1{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mar
+.marketersflex1 .imglogo img {
+    width: 300px;
+}
+
+.marketersflex1Items .image2>img{
+    margin-top: 3px;
+}
+
+.marketersflex1Items{
+    margin-block:50px;
+}
+
+
+.marketersflex1Items .image2 .h2-secondary{
+    font-size: 0.9rem;
+}
+
+.marketersflex1Items .image2 .para{
+    font-size: 0.9rem;
+}
+
+.marketersflex1Items .image2{
+    width:230px;
+}
+
+.productflex1{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.productflex1 .imglogo > img{
+    width:300px;
+    margin-block:60px;
+
+}
+
+.productflex1Items .image2 {
+    width: 282px;
+}
+.productflex1Items{
+    height:334px;
+}
+
+.productflex1Items .image2 h3{
+    font-size: 0.9rem;
+}
+
+.productflex1Items .image2>img{
+    margin-top:3px;
+}
+
+.see-more-examples .featuresdiv1 .h-primary{
+    font-size: 2.1rem;
+}
+
+.see-more-examples .featuresdiv1 .btn1{
+    font-size: .8rem;
+    padding:2px 13px;
+}
+
+.example-area{
+    gap:10px;
+    
+}
+
+.example-cards{
+    width:49%;
+    height:170px;
+   
+}
+.panelflex img {
+    width:350px;
+
+}
+
+.panelflexinside{
+    text-align: center;
+    margin-inline:20px;
+    width:390px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.panelflexinside .h-primary{
+    font-size: 1.8rem;
+
+}
+
+.panelflexinside .para{
+    font-size: 0.9rem;
+    margin-inline: 48px;
+}
+
+.panelflexinside h2{
+    font-size: 1rem;
+}
+.panelflexinside .one{
+    flex-direction: column;
+    align-items: center;
+
+}
+.panelflexinside .ul2{
+    margin-left: 13px;
+}
+.secondLast{
+    line-height: 50px;
+}
+.secondLast .h-primary{
+    font-size: 2rem;
+
+}
+.secondLast .para{
+    font-size: .9rem;
+
+}
+.secondLast .btn2{
+    padding: 5px 14px;
+}
+.container2{
+    text-align: center;
+}
+
+.container2>img {
+    margin:20px;
+}
+.container2 .item{
+    margin:15px;
+}
+.container3 .fitem{
+    text-align: center;
+    font-size: 1rem;
+    padding:5px;
+}
+}
+
+
+
+
+
+
+

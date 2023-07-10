@@ -1,0 +1,151 @@
+@media screen and (max-width:1024px){
+
+
+.nav_links li a{
+    font-size: 0.8rem;
+}
+
+.nav_links ul li{
+    padding:0px 6px;
+}
+
+.home img{
+    width: 398px;
+}
+.after-home{
+    padding-left:20px;
+}
+.after-home .h-primary{
+    font-size: 2rem;
+}
+.after-home .para{
+    font-size: 1rem;
+}
+
+
+
+.designflex1 >img{
+    width:398px;
+}
+.designflex2{
+    padding-inline:12px;
+}
+
+.designflex2 .image>img{
+    height: 68px;
+    margin-right: 10px;
+    
+}
+
+
+.designflex2 .h-primary{
+    font-size: 2rem;
+}
+.designflex2 .para{
+    font-size: 1rem;
+}
+
+.marketersflex1Items{
+    padding-inline: 13px;
+
+}
+
+.marketersflex1Items .h-primary{
+    font-size: 2rem;
+}
+.marketersflex1Items .para{
+    font-size: 1rem;
+}
+
+.marketersflex1Items .image2{
+    width:240px;
+}
+
+.marketersflex1Items .image2 >img{
+    width: 40px;
+    margin-top: 9px;
+    height: 40px;
+
+}
+
+.marketers_section .imglogo >img{
+    width: 398px;
+}
+
+.productflex1 .imglogo>img{
+    width: 398px;
+}
+
+.productflex1Items .h-primary{
+    font-size: 2rem;
+
+}
+
+.productflex1Items .para{
+    font-size: 1rem;
+}
+
+.productflex1Items{
+    padding-inline: 14px;
+}
+
+.productflex1Items .image2{
+    width:278px;
+   
+}
+
+.productflex1Items .image2 >img{
+    width: 40px;
+    margin-top: 9px;
+    height: 40px;
+
+}
+
+.example-cards h3{
+    font-size: 1rem;
+}
+
+
+.panelflex{
+    flex-wrap: wrap;
+}
+.panelflex img{
+    width:500px;
+}
+
+.panelflexinside .h-primary{
+    font-size: 2rem;
+}
+
+.panelflexinside .para{
+    font-size: 1rem;
+}
+.panelflexinside{
+    justify-content: space-evenly;
+    height:419px;
+    width:500px;
+}
+
+.panelflexinside h2{
+    font-size: 1.2rem;
+
+}
+.panelflexinside li{
+    font-size: .9rem;
+}
+
+.panelflexinside .btn2{
+    padding:5px 14px;
+    margin-left: 16px;
+}
+.container2{
+    max-width: 695px;
+}
+.container3{
+    max-width:743px;
+}
+.container3 .fitem{
+    justify-content: space-evenly;
+}
+}
+    

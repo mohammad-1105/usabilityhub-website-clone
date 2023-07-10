@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Baloo+Bhai+2&display=swap');
+
+
+*{
+
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+a{
+    text-decoration: none;
+}
+/* top head  */
+.top{
+    background: url(../image/asset\ 32.png);
+    background-size:300px;
+    background-color:#e74694;
+    text-align: center;
+    line-height: 50px;
+    color:white;
+
+  
+}
+
+.top a{
+    color: white;
+
+}
+
+
+/* Navigation Bar  */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:95px;
+    padding-inline: 20px;
+}
+.togglenav{
+    display: none;
+}
+
+.phoneNavbar {
+    display: none;
+}
+
+.navbar img{
+    width:180px;
+}
+   
+
+.nav_links ul{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.nav_links ul li .navA{
+    text-decoration: none;
+    color:#1a3b56;
+    transition: all 0.3s ease-in;
+}
+
+.nav_links ul li .navA:hover{
+    color: #2294ed;
+}
+
+.nav_links ul li{
+    list-style-type: none;
+    padding:0px 12px;
+}
+
+.btn1{
+
+    padding:5px 20px;
+    border:1px solid #d0d4d6;
+    border-radius: 4px;
+    font-weight: bold;
+    color:#204d73;
+    transition: all 0.3s ease-in;
+
+
+}
+
+.btn1:hover{
+    color:#2294ed;
+    border-color: #1a3b56;
+}
+
+.btn2{
+    padding:5px 20px;
+    border-radius: 4px;
+    background-color:  #2294ed;
+    color:white;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+
+}
+
+.btn2:hover{
+    background-color: #376c96;
+    color:white;
+
+}
+
+
+/* Home section  */
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home img{
+    width:600px;
+}
+
+.after-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:400px;
+    height: 160px;
+}
+.after-home .btn2{
+    align-self: flex-start;
+}
+.para{
+    font-size: 1.2rem;
+   color:#186097;
+}
+
+
+/* company section */
+
+.company .para{
+    text-align: center;
+    padding-top: 120px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:36px;
+    flex-wrap: wrap;
+}
+
+.logos .boxlogo{
+    width: 60px;
+}
+
+.logos img{
+    width:120px;
+    margin-inline:20px;
+
+}
+
+
+
+
+
+/* Features section  */
+
+.feature_section .featurediv1{
+    text-align: center;
+    line-height: 5rem;
+}
+
+.feature_area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top:40px;
+}
+
+.feature_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:30%;
+}
+
+.feature_cards >img{
+    width:50px;
+
+}
+
+
+
+/* Digital Professional section  */
+
+.designProfessional{
+    margin-top:80px;
+}
+.designflex1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.designflex1>img{
+    width:565px;
+}
+
+
+.designflex2{
+    display: flex;
+    flex-direction:column;
+    width:505px;
+    position:relative;
+}
+
+
+.designflex2 img{
+    width:40px;
+    border-radius:100px;
+}
+
+.designflex2 .image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height:80px;
+    width:220px;
+    margin-top: 25px;
+}
+
+.image .para{
+    color:#60a4d9;
+    font-size: 0.9rem;
+}
+
+.designflex2::before{
+
+    content: "";
+    position:absolute;
+    background:url(../image/asset\ 35.svg)no-repeat center center/contain;
+    width: 14%;
+    height:97%;
+    z-index:-1;
+
+}
+
+
+
+/* Marketers Section  */
+
+.marketersflex1{
+    display: flex;
+    align-items: center;
+}
+
+.marketersflex1 .imglogo img{
+    width: 650px;
+
+
+}
+
+.image2 img{
+    width:60px;
+    border-radius: 30px;
+
+}
+
+.marketersflex1 .img1{
+    width:80px;
+}
+
+.image2{
+    display: flex;
+    justify-content: space-between;
+    width:290px;
+    padding-top: 22px;
+}
+
+.marketersflex1Items{
+    position: relative;
+    width:550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.marketersflex1Items::before{
+    content:"";
+    background:url(../image/asset\ 35.svg)no-repeat center center/contain;
+    height:132%;
+    width:12%;
+    position: absolute;
+    z-index:-1;
+}
+
+
+/* product manager section  */
+
+
+.productflex1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productflex1 .imglogo img{
+    width: 600px;
+
+
+}
+
+.image2 img{
+    width:60px;
+    border-radius: 30px;
+
+}
+
+.productflex1 .img1{
+    width:120px;
+}
+
+.image2{
+    display: flex;
+    justify-content: space-between;
+    width:337px;
+    padding-top: 22px;
+}
+
+.productflex1Items{
+    position: relative;
+    height:405px;
+    width:514px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.productflex1Items::before{
+    content:"";
+    background:url(../image/asset\ 35.svg)no-repeat center center/contain;
+    height:132%;
+    width:12%;
+    position: absolute;
+    z-index:-1;
+}
+
+
+
+/* see more examples section  */
+
+.see-more-examples .featuresdiv1{
+    padding-bottom: 75px;
+    text-align: center;
+    line-height: 5rem;
+    margin-top: 50px;
+
+}
+
+.example-area{
+    display: flex;
+    justify-content: space-around;
+    margin-block: 80px;
+    flex-wrap: wrap;
+  
+}
+
+.example-cards{
+    display: block;
+    position:relative;
+    width: 23%;
+    height: 300px;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8)), url(../image/asset\ 36.jpeg);
+    background-size:cover;
+    transition: all 0.4s ease-in;
+    /* border-radius: 11px; */
+
+}
+.example-cards:nth-child(2){
+    background: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8)), url(../image/asset\ 37.jpeg);
+    background-size: cover ;
+}
+.example-cards:nth-child(3){
+    background: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8)), url(../image/asset\ 38.jpeg);
+    background-size: cover ;
+}
+.example-cards:nth-child(4){
+    background: linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8)), url(../image/asset\ 39.jpeg);
+    background-size: cover ;
+}
+
+.example-cards:hover{
+    box-shadow: 0 0 8px 6px rgb(221, 219, 219), -0 -0 8px 6px rgb(221, 219, 219);
+}
+
+.example-area h3{
+    position:absolute;
+    color:white;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+
+    
+
+
+
+
+
+
+ /* After see more examples section  */
+
+ .panel-section{
+    position:relative;
+    padding:20px 20px;
+ }
+ .panel-section::before{
+     content: "";
+     background-color:#183b54;
+     position: absolute;
+     top:0;
+     left:0;
+     right:0;
+     bottom:0;
+     z-index: -1;
+     height: 100%;
+     width:100%;
+
+ }
+
+ .panelflexinside .h-primary{
+    color:white;
+ }
+ .panelflexinside .para{
+    color: #a8d6f9;
+ }
+
+ .panelflexinside h2{
+    color:white;
+    
+ }
+
+ .panelflex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .panelflex img{
+    width:600px;
+ }
+
+ .panelflexinside{
+    height:520px;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+
+ }
+
+
+ .one{
+    display: flex;
+    width: 472px;
+    justify-content: space-around;
+ }
+
+ .one li{
+    color:white;
+ }
+ 
+
+ 
+
+/* footer section start  */
+
+.secondLast{
+line-height: 70px;
+text-align: center;
+margin-block:75px;
+
+}
+
+.secondLast .btn2{
+    padding: 15px 40px;
+}
+
+
+.footerstart{
+    position:relative;
+    background-color:#e4ecf5;
+}
+
+
+.container2{
+    max-width: 1000px;
+    margin-inline:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-block: 40px;
+}
+
+
+.container2>img{
+    width:150px;
+    align-self:flex-start;
+   
+}
+
+.item{
+    height:222px;
+}
+
+
+footer{
+    height:60px;
+    background-color: #b9cde4;
+}
+.container3{
+    max-width: 800px;
+    height:60px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fitem{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width:460px;
+    cursor:pointer;
+}
+.fitem2{
+        width: 185px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
+}
+.fitem2 img{
+    width:14px;
+    cursor: pointer;
+}
+
+.fitem h4{
+    color:#2a6999;
+}
+
+
+.fitem2 a> img{
+    margin-top: 9px;
+}
+
+
+
+
+/* utility class  */
+
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    overflow: hidden;
+    
+}
+
+.h-primary{
+    font-family: 'Alice', serif;
+    font-size:2.8rem;
+    color:#1a3b56;
+
+}
+
+.h2-secondary{
+    color:#043c66;
+}
+
+.para2{
+    font-size: 1.2rem;
+   color:#186097;
+   text-align: center;
+}
+
+
